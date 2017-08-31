@@ -1,6 +1,6 @@
 # Test1
 
-##Workflow for Excel to python code to find somatic mutation SNPs in genes using NCBI's SNP FASTA and FLAT files along with NCBI's Nucleotide FASTA REFSE File for Humans
+##Workflow for Excel to python code to find somatic mutation SNPs in genes using NCBI's SNP FASTA and FLAT files along with NCBI's Nucleotide FASTA REFSEQ File for Humans
     
    # *parameters:
       - Will aid in the design of primers to construct internal standards (IS) for target gene variants in NGS variant fraction mix. These IS will control for multiple sources of analytical variance in NGS.  Controlling for this variation will allow for more reproducible NGS analysis results along with improved confidence limits of data analysis.
