@@ -1,15 +1,14 @@
-# Test1
+# Somatic Snp eXtractor
 
-##Workflow for Excel to python code to find somatic mutation SNPs in genes using NCBI's SNP FASTA and FLAT files along with NCBI's Nucleotide FASTA REFSEQ File for Humans
+## Python program to find somatic mutations in genes using NCBI's SNP FASTA and FLAT files along with NCBI's Nucleotide FASTA REFSEQ File for Humans
     
-   # *parameters:
-      - Will aid in the design of primers to construct internal standards (IS) for target gene variants in NGS variant fraction mix. These IS will control for multiple sources of analytical variance in NGS.  Controlling for this variation will allow for more reproducible NGS analysis results along with improved confidence limits of data analysis.
-      - mTOR will be the first gene tested
+   # *Functionality:
+      - Will aid in the design of primers to construct internal standards (IS) for target gene variants in NGS variant fraction mix. Internal standards will control for multiple sources of analytical variance in NGS.  Controlling for this variation will allow for more reproducible NGS analysis results along with improved confidence limits of data analysis.
+      - mTOR will be used for testing
       - only use SNPs w/ 0.01 <= MAF <= 0.5
       - part one of code should print 6 columns
       - parts 2 & 3: each step results in printing one more column
       - text coordinates are coordinates gotten from string, not genomic coordinates
-      - preferably use python for this program because of its elegance and potential wide range of use
       
  # Part 1    
  ##Step1. download SNP fasta and flat files from NCBI. get Nucleotide refseq FASTA file from NCBI
