@@ -37,6 +37,10 @@
  
  ##Step5. When final QC row is reached, take the output and put it into a text file.  This text file should have all the QC approved SNPs and L & R primers.
  
+ # Example output
+ 
+ ``` this ```
+ 
  
  
       
